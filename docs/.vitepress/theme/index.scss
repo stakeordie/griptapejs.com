@@ -1,0 +1,301 @@
+@import "./responsive.scss";
+
+:root {
+  /* App specific variables */
+  // --color-primary: #FFC700;
+  // --color-secondary: #FFC700;
+
+  /* Figma Design Colors */
+  --base-space: 4px;
+
+  --neutral-01: #0d0c0c;
+  --neutral-02: #504b49;
+  --neutral-03: #867d79;
+  --neutral-04: #b6b1af;
+  --neutral-05: #e7e5e4;
+  --neutral-06: #f0efef;
+  --neutral-07: #ffffff;
+
+  --color-primary: #1cffc8;
+  --color-primary-dark: rgb(2, 214, 165);
+  --color-primary-faded: #e1fef7;
+  --color-secondary: #4597c9;
+  --color-tertiary: var(--color-primary);
+
+  --background-white: #ffffff;
+  --background-primary: var(--color-primary-faded);
+  --background-footer: var(--neutral-01);
+  --background-header: #0d0c0c;
+
+  /* Theme specific variables */
+  --font-family-base: "-apple-system,BlinkMacSystemFont," Segoe UI
+    ",Roboto,Oxygen,Ubuntu,Cantarell," Fira Sans "," Droid Sans "," Helvetica
+    Neue ",sans-serif";
+  --font-family-headings: "IBM Plex Mono";
+  --font-family-paragraphs: "Inter";
+
+  --c-brand: var(--color-tertiary);
+  --c-brand-light: var(--color-tertiary);
+
+  // Font Size
+  --font-size-mobile: 14px;
+
+  --max-width: 1200px;
+  --padding: calc((100vw - var(--max-width)) / 2);
+}
+
+html {
+  box-sizing: border-box;
+  background: url(/background-hero.jpg);
+  background-size: 320px;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font-family-base);
+  background-size: 320px;
+//   background-image: url(../../public/background-hero.jpg);
+//  background-color: black;
+
+  @include media-max($xxs) {
+      overflow-x: hidden;
+  }
+
+}
+
+h1 {
+  font-family: var(--font-family-headings);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--font-family-headings);
+  border-bottom: none;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38.4px;
+  letter-spacing: 0em;
+  color: var(--neutral-01);
+  margin: 0px;
+}
+
+h3 {
+  font-family: var(--font-family-headings);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--neutral-01);
+}
+
+p {
+  font-family: 'Inter', sans-serif;;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--neutral-01);
+}
+
+a {
+  font-family: var(--font-family-headings);
+}
+
+.theme {
+  header.nav-bar {
+    @include media-min(719px) {
+      position: absolute;
+    }
+  }
+  aside.sidebar {
+    z-index: 11;
+    width: 15rem;
+  }
+  .home {
+    .home-content {
+      max-width: 100%;
+      width: 100%;
+      padding: 0px 0px;
+      display: grid;
+      justify-items: center;
+    }
+    .home-content > div {
+      max-width: 100%;
+      width: 100%;
+      display: grid;
+      justify-items: center;
+    }
+  }
+  .nav-bar {
+    background: url(/background-hero.jpg);
+    background-size: 320px;
+    border-bottom: none;
+    height: 64px;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+
+    .icon {
+      color: white;
+    }
+
+    .nav-bar-title {
+      display: none;
+    }
+
+    .nav-links {
+      a {
+        color: var(--color-primary);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        font-style: normal;
+      }
+    }
+  }
+}
+
+.home-hero {
+  background: url(/background-hero.jpg);
+  background-size: 500px;
+  margin: 0 !important;
+  height: 500px;
+  display: grid;
+  align-content: center;
+  gap: calc(var(--base-space) * 10);
+  justify-items: center;
+  @include media-max($s) {
+    height: 375px;
+  }
+  #main-title {
+    color: var(--neutral-07);
+    font-size: 32px;
+    margin: 0;
+    @include media-max($s) {
+      font-size: 24px;
+      line-height: 32px;
+      width: 210px;
+    } 
+  }
+
+  .description {
+    display: none;
+  }
+
+  p {
+    color: var(--neutral-07) !important;
+    font-family: "Courier" !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 20.4px !important;
+    font-style: normal !important;
+    letter-spacing: 0.01em;
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 768px) {
+    p {
+      font-size: 34px !important;
+      line-height: 40.8px !important;
+      margin: 40px 0 !important;
+    }
+  }
+
+  .nav-link {
+    margin-bottom: 20px;
+
+    a {
+      color: var(--neutral-02) !important;
+      font-weight: 700 !important;
+      font-style: bold !important;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .nav-link {
+      margin: 0px 16px !important;
+    }
+  }
+}
+
+.content-wrapper {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: var(--max-width);
+  width: var(--max-width);
+  display: grid;
+  grid-auto-flow: column;
+
+  @include media-min($xl) {
+    --max-width: 1180px;
+  }
+
+  @include media-max($xl) {
+    --max-width: 950px;
+  }
+  @include media-max($l) {
+    --max-width: 950px;
+  }
+  @include media-max($l) {
+    --max-width: 95%;
+  }
+
+  @include media-max(700px) {
+    --max-width: 100%;
+  }
+  
+  // @include media-max($s) {
+  //   --max-width: 100%;
+  // }
+  
+  @include media-max($xxs) {
+    --max-width: 90%;
+  }
+}
+.block {
+  padding: calc(var(--base-space) * 16) calc(var(--base-space) * 4);
+  @include media-max($xxs) {
+    padding: calc(var(--base-space) * 16) 0;
+  }
+}
+
+/* Overriding styles for h1 "icon" in index.html */
+// #main-title {
+//   background-image: url("../../public/logo-griptape-small.svg");
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   height: 60px !important;
+
+//   @media only screen and (min-width: 768px) {
+//     background-image: url("../../public/logo-griptape-js.png");
+//     height: 80px !important;
+//   }
+// }
+
+.button-main {
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  color: var(--neutral-01);
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: calc(var(--base-space) * 4);
+  transition: 0.2s ease;
+  &:hover {
+    background-color: var(--color-primary-dark);
+    border: 1px solid var(--color-primary-dark);
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}

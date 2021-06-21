@@ -1,0 +1,21 @@
+$xxxs:      "0";
+$xxs:   "320px";
+$xs:    "400px";
+$s:     "576px";
+$m:     "768px";
+$l:     "992px";
+$xl:   "1200px";
+$xxl:  "1600px";
+$xxxl: "2560px";
+ 
+@mixin media-min($size) {
+  @media (min-width: $size) {
+    @content;
+  }
+}
+@mixin media-max($size) {
+  @media (max-width: $size) {
+    @content;
+  }
+}
+ 

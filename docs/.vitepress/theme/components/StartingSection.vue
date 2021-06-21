@@ -1,0 +1,250 @@
+<template>
+  <div class="features-container">
+    <div class="content-wrapper">
+      <div class="block">
+        <img src="/icon-eye.svg" alt="Feature" />
+        <div class="message">
+          <h3>Share the secret</h3>
+          <p>Build dApps for Secret Network, the privacy-first blockchain.</p>
+        </div>
+      </div>
+      <div class="block">
+        <img src="/icon-rocket.svg" alt="Feature" />
+        <div class="message">
+          <h3>Easy to configure</h3>
+          <p>Convention over configuration so development is lighting fast.</p>
+        </div>
+      </div>
+      <div class="block">
+        <img src="/icon-stack.svg" alt="Feature" />
+        <div class="message">
+          <h3>Multi-flavored</h3>
+          <p>
+            It features a complete Javascript-agnostic core with a VueJS
+            implementation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="starting-container">
+    <div class="content-wrapper">
+      <div class="block one">
+        <div class="intro">
+          <h2>Quick Start</h2>
+          <p>
+            As part of the same ecosystem, griptape.js offers different flavors
+            to enable developers rapidly set up an application.
+          </p>
+        </div>
+        <div class="icons">
+          <img src="/logo-vue.png" alt="Logo Vue" />
+          <img src="/logo-react.png" alt="Logo Vue" />
+        </div>
+
+        <button class="button-main">
+          <a href="https://github.com/stakeordie/poc-griptape.js">Learn More</a>
+        </button>
+      </div>
+
+      <div class="block two">
+        <div class="option">
+          <h2>Use our starter</h2>
+          <div class="method">
+            <p>Clone This Repository</p>
+            <code
+              ><span>degit </span
+              >https://github.com/stakeordie/griptape-vue-starter</code
+            >
+          </div>
+        </div>
+
+        <div class="option">
+          <h2 class="scalfold">Scafold Your Project</h2>
+          <div class="method">
+            <p>Using Yarn</p>
+            <code><span>yarn add</span> @stakeordie/griptape-vue.js</code>
+          </div>
+          <div class="method">
+            <p>Using Npm</p>
+            <code><span>npm install</span> @stakeordie/griptape-vue.js</code>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+@import "../responsive.scss";
+.features-container {
+  background: var(--color-primary);
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  color: var(--neutral-01);
+  @include media-max($xxs) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    @include media-max(700px) {
+      grid-template-columns: 1fr;
+      grid-auto-flow: row;
+    }
+    @include media-max($xxs) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .block {
+      display: grid;
+      justify-content: center;
+      gap: calc(var(--base-space) * 8);
+      padding: calc(var(--base-space) * 8) calc(var(--base-space) * 6);
+      justify-content: space-between;
+      align-content: start;
+      @include media-max($xxs) {
+        padding: calc(var(--base-space) * 8) 0;
+      }
+      &:first-child {
+        border-right: 4px dotted;
+        // border-style: dotted;
+        @include media-max(700px) {
+          border-right: 0;
+          border-bottom: 4px dotted;
+        }
+      }
+      &:last-child {
+        border-left: 4px dotted;
+        @include media-max(700px) {
+          border-left: 0;
+          border-top: 4px dotted;
+        }
+      }
+      img {
+        @include media-max($s) {
+          width: calc(var(--base-space) * 8);
+          height: calc(var(--base-space) * 8);
+        }
+      }
+      .message {
+        display: grid;
+        gap: var(--base-space);
+        h3,
+        p {
+          margin: 0;
+        }
+        p {
+          max-width: 90%;
+        }
+      }
+    }
+  }
+}
+.starting-container {
+  background: var(--neutral-06);
+  display: grid;
+  justify-items: center;
+  width: 100%;
+
+  .content-wrapper {
+    @include media-max($l) {
+      grid-template-columns: 1fr;
+      grid-auto-flow: row;
+    }
+    p {
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+      max-width: 90%;
+    }
+
+    h1,
+    h2 {
+      @include media-max($xxs) {
+        width: 95%;
+      }
+    }
+
+    .one {
+      display: grid;
+      gap: calc(var(--base-space) * 8);
+      align-content: start;
+      .intro {
+        display: grid;
+        gap: calc(var(--base-space) * 6);
+        h2,
+        p {
+          margin: 0;
+        }
+      }
+      button {
+        width: fit-content;
+      }
+    }
+
+    .two {
+      display: grid;
+      gap: calc(var(--base-space) * 16);
+      .option {
+        display: grid;
+        gap: calc(var(--base-space) * 6);
+        .method {
+          display: grid;
+          gap: calc(var(--base-space) * 2);
+          p {
+            margin: 0;
+          }
+          code {
+            font-family: Courier;
+            background: var(--neutral-01);
+            padding: calc(var(--base-space) * 4);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0em;
+            color: var(--neutral-07);
+            width: 100%;
+            display: block;
+            border-radius: 0;
+            white-space: nowrap;
+
+            @include media-max($s) {
+              overflow: hidden;
+              white-space: nowrap;
+              overflow-x: scroll;
+            }
+
+            @include media-max($xxs) {
+              width: 95%;
+            }
+
+            span {
+              color: var(--color-tertiary);
+            }
+          }
+        }
+      }
+
+      margin-top: 20px;
+
+      @media only screen and (min-width: 768px) {
+        margin-top: 0px;
+      }
+    }
+  }
+
+  .icons {
+    margin: 32px 0px;
+
+    img {
+      margin-right: 24px;
+    }
+  }
+}
+</style>
