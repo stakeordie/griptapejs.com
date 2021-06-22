@@ -6,7 +6,7 @@
       <div class="block">
         <button class="button-main">
           <a
-            href="https://griptape-docs.netlify.app/introduction/what-is-griptape.html"
+            href="https://docs.vue.griptapejs.com/introduction/getting-started.html"
             >Start Now</a
           >
         </button>
