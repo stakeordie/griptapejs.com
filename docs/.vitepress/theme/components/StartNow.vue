@@ -7,6 +7,7 @@
         <button class="button-main">
           <a
             href="https://docs.vue.griptapejs.com/introduction/getting-started.html"
+            target="__blank"
             >Start Now</a
           >
         </button>
