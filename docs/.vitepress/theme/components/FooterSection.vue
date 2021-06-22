@@ -3,13 +3,13 @@
     <div class="content-wrapper">
       <div class="block">
         <div class="sod">
-          <p>Built with <span>♥️</span> by</p>
+          <p>Built with <span>🛹♥️</span> by</p>
           <img src="/sod-logo.svg" alt="SOD Logo" />
         </div>
       </div>
       <div class="block">
         <div class="logo-scrt">
-          <p>Secured By</p>
+          <p>Secured by</p>
           <img src="/logo-secret-network.png" alt="Secret Network Logo" />
         </div>
       </div>

@@ -4,8 +4,8 @@
       <div class="block">
         <img src="/icon-eye.svg" alt="Feature" />
         <div class="message">
-          <h3>Share the secret</h3>
-          <p>Build dApps for Secret Network, the privacy-first blockchain.</p>
+          <h3>Intuitive</h3>
+          <p>Contract-State model makes interacting with Secret Contracts just make sense</p>
         </div>
       </div>
       <div class="block">
@@ -20,8 +20,7 @@
         <div class="message">
           <h3>Multi-flavored</h3>
           <p>
-            It features a complete Javascript-agnostic core with a VueJS
-            implementation.
+            VueJS and ReactJS implementations built on a framework-agnostic javascript core.
           </p>
         </div>
       </div>
@@ -34,7 +33,7 @@
           <h2>Quick Start</h2>
           <p>
             As part of the same ecosystem, griptape.js offers different flavors
-            to enable developers rapidly set up an application.
+            to enable developers to rapidly set up an application, no matter what popular framework they prefer.
           </p>
         </div>
         <div class="icons">
