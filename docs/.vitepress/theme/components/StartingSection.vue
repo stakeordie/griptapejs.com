@@ -5,7 +5,7 @@
         <img src="/icon-eye.svg" alt="Feature" />
         <div class="message">
           <h3>Intuitive</h3>
-          <p>Contract-State model makes interacting with Secret Contracts just make sense</p>
+          <p>Our Contract-State model emulates Secret Contracts just make sense</p>
         </div>
       </div>
       <div class="block">
