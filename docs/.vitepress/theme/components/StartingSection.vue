@@ -5,7 +5,7 @@
         <img src="/icon-eye.svg" alt="Feature" />
         <div class="message">
           <h3>Intuitive</h3>
-          <p>Our Contract-State model emulates Secret Contracts just make sense</p>
+          <p>With our Contract-State model, interacting with Secret Contracts just make sense</p>
         </div>
       </div>
       <div class="block">
@@ -32,17 +32,20 @@
         <div class="intro">
           <h2>Quick Start</h2>
           <p>
-            As part of the same ecosystem, griptape.js offers different flavors
-            to enable developers to rapidly set up an application, no matter what popular framework they prefer.
+            Choose your Flavor
           </p>
         </div>
         <div class="icons">
-          <img src="/logo-vue.png" alt="Logo Vue" />
-          <img src="/logo-react.png" alt="Logo Vue" />
+          <div class="framework-select selected">
+            <img src="/logo-vue.png" alt="Logo Vue" />
+          </div>
+          <div class="framework-select coming-soon">
+            <img src="/logo-react.png" alt="Logo R" />
+          </div>
         </div>
 
         <button class="button-main">
-          <a href="https://github.com/stakeordie/poc-griptape.js">Learn More</a>
+          <a href="https://github.com/stakeordie/griptape-vue.js" target="__blank">Learn More</a>
         </button>
       </div>
 
@@ -59,7 +62,7 @@
         </div>
 
         <div class="option">
-          <h2 class="scalfold">Scafold Your Project</h2>
+          <h2 class="scalfold">Scaffold Your Project</h2>
           <div class="method">
             <p>Using Yarn</p>
             <code><span>yarn add</span> @stakeordie/griptape-vue.js</code>
@@ -240,6 +243,11 @@
 
   .icons {
     margin: 32px 0px;
+
+    //.framework-select {
+      //.selected {}
+      //.coming-soon {}
+    //}
 
     img {
       margin-right: 24px;
