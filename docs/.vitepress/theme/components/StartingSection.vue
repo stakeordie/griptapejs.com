@@ -4,8 +4,8 @@
       <div class="block">
         <img src="/bulb.svg" alt="Feature" />
         <div class="message">
-          <h3>Share the secret</h3>
-          <p>Build dApps for Secret Network, the privacy-first blockchain.</p>
+          <h3>Intuitive</h3>
+          <p>With our Contract-State model, interacting with Secret Contracts just make sense</p>
         </div>
       </div>
       <div class="block">
@@ -20,8 +20,7 @@
         <div class="message">
           <h3>Multi-flavored</h3>
           <p>
-            It features a complete Javascript-agnostic core with a VueJS
-            implementation.
+            VueJS and ReactJS implementations built on a framework-agnostic javascript core.
           </p>
         </div>
       </div>
@@ -33,22 +32,20 @@
         <div class="intro">
           <h2>Get Started</h2>
           <p>
-            As part of the same ecosystem, griptape.js offers different flavors
-            to enable developers rapidly set up an application.
+            Choose your Flavor
           </p>
         </div>
         <div class="icons">
-          <div>
+          <div class="framework-select selected">
             <img src="/logo-vue.png" alt="Logo Vue" />
           </div>
-          <div>
-            <img src="/logo-react.png" alt="Logo Vue" />
-            <span>Coming Soon</span>
+          <div class="framework-select coming-soon">
+            <img src="/logo-react.png" alt="Logo R" />
           </div>
         </div>
 
         <button class="button-main">
-          <a href="https://github.com/stakeordie/poc-griptape.js">Learn More</a>
+          <a href="https://docs.vue.griptapejs.com" target="__blank">Explore Vue docs</a>
         </button>
       </div>
 
@@ -246,7 +243,7 @@
     grid-auto-flow: column;
     grid-auto-columns: max-content;
     grid-column-gap: 32px;
-    margin: 32px 0px;
+    margin: 18px 0px;
     width: 100%;
 
     div {
