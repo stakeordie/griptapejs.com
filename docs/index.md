@@ -9,6 +9,4 @@ heroText: To get you off the ground.
 
 <starting-section> </starting-section>
 
-<start-now> </start-now>
-
 <footer-section> </footer-section>

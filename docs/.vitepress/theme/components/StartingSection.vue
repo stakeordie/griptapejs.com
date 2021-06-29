@@ -2,7 +2,7 @@
   <div class="features-container">
     <div class="content-wrapper">
       <div class="block">
-        <img src="/icon-eye.svg" alt="Feature" />
+        <img src="/bulb.svg" alt="Feature" />
         <div class="message">
           <h3>Share the secret</h3>
           <p>Build dApps for Secret Network, the privacy-first blockchain.</p>
@@ -31,15 +31,20 @@
     <div class="content-wrapper">
       <div class="block one">
         <div class="intro">
-          <h2>Quick Start</h2>
+          <h2>Get Started</h2>
           <p>
             As part of the same ecosystem, griptape.js offers different flavors
             to enable developers rapidly set up an application.
           </p>
         </div>
         <div class="icons">
-          <img src="/logo-vue.png" alt="Logo Vue" />
-          <img src="/logo-react.png" alt="Logo Vue" />
+          <div>
+            <img src="/logo-vue.png" alt="Logo Vue" />
+          </div>
+          <div>
+            <img src="/logo-react.png" alt="Logo Vue" />
+            <span>Coming Soon</span>
+          </div>
         </div>
 
         <button class="button-main">
@@ -49,25 +54,21 @@
 
       <div class="block two">
         <div class="option">
-          <h2>Use our starter</h2>
+          <h2 class="scalfold">Add it to your project</h2>
           <div class="method">
-            <p>Clone This Repository</p>
-            <code
-              ><span>degit </span
-              >https://github.com/stakeordie/griptape-vue-starter</code
-            >
-          </div>
-        </div>
-
-        <div class="option">
-          <h2 class="scalfold">Scafold Your Project</h2>
-          <div class="method">
-            <p>Using Yarn</p>
+            <p>Using Yarn:</p>
             <code><span>yarn add</span> @stakeordie/griptape-vue.js</code>
           </div>
           <div class="method">
-            <p>Using Npm</p>
+            <p>Using npm:</p>
             <code><span>npm install</span> @stakeordie/griptape-vue.js</code>
+          </div>
+
+          <div class="option">
+            <div class="method">
+              <p>Or, use our starter:</p>
+              <code><span>degit </span>https://github.com/stakeo;die/griptape-vue-starter#main</code>
+            </div>
           </div>
         </div>
       </div>
@@ -100,11 +101,10 @@
     }
     .block {
       display: grid;
-      justify-content: center;
-      gap: calc(var(--base-space) * 8);
+      justify-items: center;
+      grid-gap: calc(var(--base-space) * 8);
       padding: calc(var(--base-space) * 8) calc(var(--base-space) * 6);
       justify-content: space-between;
-      align-content: start;
       @include media-max($xxs) {
         padding: calc(var(--base-space) * 8) 0;
       }
@@ -131,6 +131,8 @@
       }
       .message {
         display: grid;
+        justify-items: center;
+        text-align: center;
         gap: var(--base-space);
         h3,
         p {
@@ -240,10 +242,44 @@
   }
 
   .icons {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    grid-column-gap: 32px;
     margin: 32px 0px;
+    width: 100%;
 
-    img {
-      margin-right: 24px;
+    div {
+      position: relative;
+      padding: 8px;
+      cursor: pointer;
+      border: 2px solid transparent;
+
+      &:hover {
+        background-color: #dedede;
+        border-radius: 4px;
+      }
+
+      &:first-child {
+        border: 2px solid var(--color-primary-dark);
+        border-radius: 4px;
+      }
+
+      &:last-child {
+        span {
+          font-family: Courier;
+          font-size: 12px;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          background-color: black;
+          color: white;
+          padding: 2px;
+          width: 100%;
+          text-align: center;
+          opacity: .5;
+        }
+      }
     }
   }
 }
