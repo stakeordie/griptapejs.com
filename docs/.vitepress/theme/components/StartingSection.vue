@@ -41,6 +41,7 @@
           </div>
           <div class="framework-select coming-soon">
             <img src="/logo-react.png" alt="Logo R" />
+            <span>Coming Soon</span>
           </div>
         </div>
 
