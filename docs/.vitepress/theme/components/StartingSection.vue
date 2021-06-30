@@ -12,7 +12,7 @@
         <img src="/icon-rocket.svg" alt="Feature" />
         <div class="message">
           <h3>Easy to configure</h3>
-          <p>Convention over configuration so development is lighting fast.</p>
+          <p>Convention over configuration so development is lightning fast.</p>
         </div>
       </div>
       <div class="block">
@@ -65,7 +65,7 @@
           <div class="option">
             <div class="method">
               <p>Or, use our starter:</p>
-              <code><span>degit </span>https://github.com/stakeo;die/griptape-vue-starter#main</code>
+              <code><span>degit </span>https://github.com/stakeordie/griptape-vue-starter#main</code>
             </div>
           </div>
         </div>
