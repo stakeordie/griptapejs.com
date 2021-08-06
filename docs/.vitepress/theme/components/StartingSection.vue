@@ -5,7 +5,7 @@
         <img src="/bulb.svg" alt="Feature" />
         <div class="message">
           <h3>Intuitive</h3>
-          <p>With our Contract-State model, interacting with Secret Contracts just make sense</p>
+          <p>With our Contract-State model, interacting with Secret Contracts just makes sense</p>
         </div>
       </div>
       <div class="block">
