@@ -46,7 +46,7 @@
         </div>
 
         <button class="button-main">
-          <a href="https://docs.vue.griptapejs.com" target="__blank">Explore Vue docs</a>
+          <a href="https://docs.griptapejs.com" target="__blank">Explore Vue docs</a>
         </button>
       </div>
 
