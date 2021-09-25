@@ -6,7 +6,7 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
-      { text: "Read the docs", link: "https://docs.vue.griptapejs.com" },
+      { text: "Read the docs", link: "https://docs.griptapejs.com" },
       { text: "Github", link: "https://github.com/stakeordie/griptape.js" },
       { text: "Secret Network", link: "https://scrt.network/" },
     ]
