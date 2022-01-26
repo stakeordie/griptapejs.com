@@ -5,7 +5,7 @@
         <img src="/bulb.svg" alt="Feature" />
         <div class="message">
           <h3>Intuitive</h3>
-          <p>With our Contract-State model, interacting with Secret Contracts just makes sense</p>
+          <p>With our Contracts API, interacting with Contract just makes sense.</p>
         </div>
       </div>
       <div class="block">
@@ -18,10 +18,8 @@
       <div class="block">
         <img src="/icon-stack.svg" alt="Feature" />
         <div class="message">
-          <h3>Multi-flavored</h3>
-          <p>
-            VueJS and ReactJS implementations built on a framework-agnostic javascript core.
-          </p>
+          <h3>Easy to integrate</h3>
+          <p>React, Vue, Svelte? Doesn't matter, we have you covered.</p>
         </div>
       </div>
     </div>
