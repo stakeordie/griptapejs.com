@@ -74,6 +74,22 @@
   </div>
 </template>
 
+<script>
+export default {
+  methods: {
+    removeClass() {
+      const heroHome = document.querySelector("main");
+    heroHome.classList.remove("hackathon")
+    // console.log(heroHome)
+    }
+  },
+  mounted() {
+    this.removeClass()
+  }
+}
+</script>
+
+
 <style lang="scss" scoped>
 @import "../responsive.scss";
 .features-container {

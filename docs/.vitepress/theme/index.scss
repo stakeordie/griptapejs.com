@@ -119,6 +119,11 @@ a {
     width: 15rem;
   }
   .home {
+    &.hackathon {
+      .home-hero {
+        display: none;
+      }
+    }
     .home-content {
       max-width: 100%;
       width: 100%;
@@ -171,6 +176,7 @@ a {
   align-content: center;
   gap: calc(var(--base-space) * 10);
   justify-items: center;
+  
   @include media-max($s) {
     height: 375px;
   }
@@ -297,5 +303,26 @@ a {
   a {
     color: black;
     text-decoration: none;
+  }
+  &.black {
+    background-color: var(--neutral-01);
+    border-color: var(--neutral-01);
+    a {
+      display: inline-grid;
+      align-items: center;
+      gap: 16px;
+      grid-template-columns: auto 24px;
+      color: white;
+    }
+    &:hover {
+      background-color: var(--color-primary);
+      border-color: var(--color-primary);
+      * {color: black;}
+      svg {
+        path {
+          fill:black
+        }
+      }
+    }
   }
 }
