@@ -3,8 +3,8 @@ import HeroFloatingLogo from './components/HeroFloatingLogo.vue';
 import StartingSection from './components/StartingSection.vue';
 import StartNow from './components/StartNow.vue';
 import FooterSection from './components/FooterSection.vue';
-import hackathonHero from './components/hackathonHero.vue';
-import hackathonContent from './components/hackathonContent.vue';
+import HackathonHero from './components/HackathonHero.vue';
+import HackathonContent from './components/HackathonContent.vue';
 
 import './index.scss';
 
@@ -21,8 +21,8 @@ export default {
     app.component('StartingSection', StartingSection);
     app.component('StartNow', StartNow);
     app.component('FooterSection', FooterSection);
-    app.component('hackathonHero', hackathonHero);
-    app.component('hackathonContent', hackathonContent);
+    app.component('HackathonHero', HackathonHero);
+    app.component('HackathonContent', HackathonContent);
     
   }
 }
