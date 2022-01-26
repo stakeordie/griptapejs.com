@@ -31,19 +31,12 @@
       <div class="block one">
         <div class="intro">
           <h2>Get Started</h2>
-          <p>
-            Choose your Flavor
-          </p>
         </div>
-        <div class="icons">
-          <div class="framework-select selected">
-            <img src="/logo-vue.png" alt="Logo Vue" />
-          </div>
-          <div class="framework-select coming-soon">
-            <img src="/logo-react.png" alt="Logo R" />
-            <span>Coming Soon</span>
-          </div>
-        </div>
+
+        <p>
+          Read the docs to learn more about how to use Griptape and start
+          building the next generation of applications for the web.
+        </p>
 
         <button class="button-main">
           <a href="https://docs.griptapejs.com" target="__blank">Explore Vue docs</a>
@@ -55,19 +48,13 @@
           <h2 class="scalfold">Add it to your project</h2>
           <div class="method">
             <p>Using Yarn:</p>
-            <code><span>yarn add</span> @stakeordie/griptape-vue.js</code>
+            <code><span>yarn add</span> @stakeordie/griptape.js</code>
           </div>
           <div class="method">
             <p>Using npm:</p>
-            <code><span>npm install</span> @stakeordie/griptape-vue.js</code>
+            <code><span>npm install</span> @stakeordie/griptape.js</code>
           </div>
 
-          <div class="option">
-            <div class="method">
-              <p>Or, use our starter:</p>
-              <code><span>degit </span>https://github.com/stakeordie/griptape-vue-starter#main</code>
-            </div>
-          </div>
         </div>
       </div>
     </div>
