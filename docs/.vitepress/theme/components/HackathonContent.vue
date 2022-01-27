@@ -124,7 +124,7 @@
       <div class="block">
         <img src="/icon-monitor.svg" alt="Feature" />
         <div class="message">
-          <h3>Come to extended office hours, Thursdays @ 1PM ET</h3>
+          <h3>Come to extended office hours - Thursdays @ 1PM ET</h3>
           <p>
             Ask questions, show us your work,
             bounce ideas off of us and others.
@@ -134,7 +134,7 @@
       <div class="block">
         <img src="/icon-coffee.svg" alt="Feature" />
         <div class="message">
-          <h3>Join Friday Ha<i>ck</i>y Hours, Fridays @ 5PM till last call</h3>
+          <h3>Join Friday Ha{ck}y Hours - Fridays @ 5PM till last call</h3>
           <p>Have a beer, or 5, with us and talk about anything really.</p>
         </div>
       </div>
