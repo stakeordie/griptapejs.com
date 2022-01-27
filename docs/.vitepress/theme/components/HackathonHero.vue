@@ -26,7 +26,7 @@ export default {
   background: url(/background-hero.jpg);
   background-size: 500px;
   margin: 0 !important;
-  height: 500px;
+  height: 400px;
   width: 100%;
   display: grid;
   align-content: center;
