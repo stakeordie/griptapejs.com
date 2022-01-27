@@ -88,7 +88,7 @@
           <h3>Get prepared:</h3>
           <h1>Join in on Discord</h1>
         </div>
-        <p>Read the Docs</p>
+        <p><a href="https://docs.griptapejs.com" target="_blank" rel="noreferrer noopener">Read the docs</a></p>
       </div>
 
       <div class="block two">
