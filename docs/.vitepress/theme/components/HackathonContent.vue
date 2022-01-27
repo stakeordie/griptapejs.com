@@ -3,11 +3,11 @@
     <div class="content-wrapper">
       <div class="block one">
         <div class="heading">
-          <h3>What will we be building</h3>
+          <h3>What's the Assignment?</h3>
           <h1>Sealed Bid Auctions</h1>
         </div>
         <p>
-          Teams or individuals will compete to build a replacement for
+          Compete to build a replacement for
           <a target="blank" href="https://auctions.scrt.network/"
             >https://auctions.scrt.network</a
           >.
@@ -16,16 +16,16 @@
 
       <div class="block two">
         <div class="option">
-          <h2 class="scalfold">Competing for cash prizes</h2>
+          <h2 class="scalfold">Compete for cash prizes</h2>
           <div class="method">
-            <p>1st</p>
+            <p>1st Place</p>
             <code
               ><h2>500</h2>
               <p>SCRT</p></code
             >
           </div>
           <div class="method">
-            <p>2nd</p>
+            <p>2nd Place</p>
             <code
               ><h2>250</h2>
               <p>SCRT</p></code
@@ -34,7 +34,7 @@
 
           <div class="option">
             <div class="method">
-              <p>3rd</p>
+              <p>3rd Place</p>
               <code
                 ><h2>125</h2>
                 <p>SCRT</p></code
@@ -49,12 +49,11 @@
     <div class="content-wrapper">
       <div class="block one">
         <div class="heading">
-          <h3>When</h3>
+          <h3>When's it Happening?</h3>
           <h1>The month of February</h1>
         </div>
         <p>
-          All month we will be helping out with weekly live coding sessions and
-          extended office hours.
+          All month long we'll be hosting live coding sessions and extended office ours.
         </p>
       </div>
 
@@ -68,27 +67,28 @@
   <div class="participate-container">
     <div class="content-wrapper">
       <div class="block one">
-        <h2>How do I participate</h2>
+        <h2>How do I participate?</h2>
         <button
           data-tf-popup="qk2yH1Jz"
           data-tf-iframe-props="title=Griptape Hackathon Registration"
           data-tf-medium="snippet"
           class="button-main"
         >
-          <h3>Fill out the form here</h3>
+          <h3>Click Here to Sign Up</h3>
         </button>
-        <p>Submissions will be accepted through Sunday the 6th.</p>
+        <p>Submissions will be accepted through Sunday, February 6th.</p>
       </div>
     </div>
   </div>
   <div class="join-container">
     <div class="content-wrapper">
       <div class="block one">
+        <h2>Then What?</h2>
         <div class="heading">
-          <h3>After that:</h3>
+          <h3>Get prepared:</h3>
           <h1>Join in on Discord</h1>
         </div>
-        <p>Read the Docs and ask questions.</p>
+        <p>Read the Docs</p>
       </div>
 
       <div class="block two">
@@ -117,8 +117,8 @@
       <div class="block">
         <img src="/icon-calendar.svg" alt="Feature" />
         <div class="message">
-          <h3>Join our weekly live coding sessions.</h3>
-          <p>Where you can follow along as our team builds from scratch.</p>
+          <h3>Join our weekly live coding sessions, Tuesdays @ 1PM ET,</h3>
+          <p>where you can follow along as our team builds from scratch.</p>
         </div>
       </div>
       <div class="block">
@@ -126,7 +126,7 @@
         <div class="message">
           <h3>Show us your work.</h3>
           <p>
-            Come to extended office hours to ask questions, show us your work,
+            Come to extended office hours, Thursdays @ 1PM ET, to ask questions, show us your work,
             bounce ideas off of us and others.
           </p>
         </div>
@@ -134,8 +134,8 @@
       <div class="block">
         <img src="/icon-coffee.svg" alt="Feature" />
         <div class="message">
-          <h3>Join Friday Hacky Hours.</h3>
-          <p>Have a beer with us and talk about anything really.</p>
+          <h3>Join Friday Hacky Hours, Fridays @ 5PM till last call, </h3>
+          <p>have a beer with us and talk about anything really.</p>
         </div>
       </div>
     </div>
