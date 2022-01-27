@@ -93,7 +93,7 @@
 
       <div class="block two">
         <button class="button-main black">
-          <a href="https://discord.gg/Y7gBCABG" target="__blank"
+          <a href="https://discord.gg/Z8wRUuyrPr" target="__blank"
             >Join
             <svg
               width="24"
