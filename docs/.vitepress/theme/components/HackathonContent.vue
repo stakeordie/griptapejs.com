@@ -117,16 +117,16 @@
       <div class="block">
         <img src="/icon-calendar.svg" alt="Feature" />
         <div class="message">
-          <h3>Join our weekly live coding sessions, Tuesdays @ 1PM ET,</h3>
-          <p>where you can follow along as our team builds from scratch.</p>
+          <h3>Join our weekly live coding sessions - Tuesdays @ 1PM ET</h3>
+          <p>Follow along as our team builds from scratch.</p>
         </div>
       </div>
       <div class="block">
         <img src="/icon-monitor.svg" alt="Feature" />
         <div class="message">
-          <h3>Show us your work.</h3>
+          <h3>Come to extended office hours, Thursdays @ 1PM ET</h3>
           <p>
-            Come to extended office hours, Thursdays @ 1PM ET, to ask questions, show us your work,
+            Ask questions, show us your work,
             bounce ideas off of us and others.
           </p>
         </div>
@@ -134,8 +134,8 @@
       <div class="block">
         <img src="/icon-coffee.svg" alt="Feature" />
         <div class="message">
-          <h3>Join Friday Hacky Hours, Fridays @ 5PM till last call, </h3>
-          <p>have a beer with us and talk about anything really.</p>
+          <h3>Join Friday Ha<i>ck</i>y Hours, Fridays @ 5PM till last call</h3>
+          <p>Have a beer, or 5, with us and talk about anything really.</p>
         </div>
       </div>
     </div>
